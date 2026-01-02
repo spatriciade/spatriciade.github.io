@@ -177,12 +177,11 @@
       <p><i class="fa-solid fa-envelope-circle-check"></i> Email : spatriciade.business.tech@gmail.com</p>
        <small> <span id="gc-count">–</span> Views</small>
     </footer>
+<script>
+fetch("https://spatriciade.goatcounter.com/counter")
+  .then(r => r.text())
+  .then(c => document.getElementById("gc-count").textContent = c);
+</script>
 
-    <script src="script.js"></script>
-      <script
-    data-goatcounter="https://spatriciade.goatcounter.com/count"
-    async
-    src="https://gc.zgo.at/count.js">
-  </script>
 </body>
 </html>
